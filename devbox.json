@@ -1,0 +1,10 @@
+{
+    "packages" : [
+        "git@2.46.0",
+        "coreutils@9.4",
+        "nodejs@22.9.0"
+    ],
+    "env" : {
+        "DEVBOX_COREPACK_ENABLED": "true"
+    }
+}
