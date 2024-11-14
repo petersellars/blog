@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownLayout.astro
 title: 'My Third Blog Post'
 pubDate: 2024-11-03
 description: "I had some challenges, but asking in the community really helped!"
