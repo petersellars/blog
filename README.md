@@ -1,3 +1,7 @@
+# Blog
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1bb56fec-8f17-475a-91a3-779a3025c09b/deploy-status)](https://app.netlify.com/sites/ubiquitous-syrniki-3c3727/deploys)
+
 # Astro Starter Kit: Minimal
 
 ```sh
