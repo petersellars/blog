@@ -10,8 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/preact": "^3.5.4",
     "@astrojs/rss": "^4.0.9",
-    "astro": "^4.16.8"
+    "@babel/code-frame": "^7.26.2",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
+    "astro": "^4.16.8",
+    "preact": "^10.25.0"
   },
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.1",
+  "devDependencies": {
+    "@types/babel__code-frame": "^7",
+    "@types/babel__core": "^7"
+  }
 }
