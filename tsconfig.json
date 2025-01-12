@@ -13,27 +13,43 @@
 
 // {}
 
+// {
+//   "$schema": "https://json.schemastore.org/tsconfig",
+//   "compilerOptions": {
+//     "declaration": true,
+//     "emitDeclarationOnly": true,
+//     "strict": true,
+//     "moduleResolution": "Node16",
+//     "target": "ES2022",
+//     "module": "Node16",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "verbatimModuleSyntax": true,
+//     "stripInternal": true,
+//     "jsx": "react-jsx",
+//     "jsxImportSource": "preact"
+//   },
+//   "plugins": [
+//     {
+//       "name": "@astrojs/ts-plugin"
+//     },
+//   ],
+//   "include": [".astro/types.d.ts", "**/*"],
+//   "exclude": ["dist"]
+// }
+
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "strict": true,
-    "moduleResolution": "Node16",
-    "target": "ES2022",
-    "module": "Node16",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "verbatimModuleSyntax": true,
-    "stripInternal": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+   "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+        "$lib/*": ["src/*"]
+    }
   },
   "plugins": [
     {
       "name": "@astrojs/ts-plugin"
     },
   ],
-  "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"]
+  "extends": "astro/tsconfigs/strict"
 }
